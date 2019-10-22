@@ -87,7 +87,7 @@ class target():
   self.live=1
  def new_target(self):
   x=self.x=rnd(600,780)
-  y=self.y=rnd(300,550)
+  y=self.y=rnd(300,500)
   r=self.r=rnd(2,50)
   color=self.color='red'
   canv.coords(self.id,x-r,y-r,x+r,y+r)
